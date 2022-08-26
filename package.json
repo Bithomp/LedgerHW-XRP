@@ -1,0 +1,38 @@
+{
+  "name": "ledgerhw-xrp",
+  "version": "1.0.0",
+  "description": "The lib to interact with Ledger HW (XRP)",
+  "scripts": {
+    "build": "parcel build src/index.html --public-url ./",
+    "start": "parcel"
+  },
+  "source": "src/index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bithomp/LedgerHW-XRP.git"
+  },
+  "keywords": [
+    "xrpl",
+    "xrp"
+  ],
+  "author": "Bithomp AB",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Bithomp/LedgerHW-XRP/issues"
+  },
+  "homepage": "https://github.com/Bithomp/LedgerHW-XRP#readme",
+  "dependencies": {
+    "@ledgerhq/hw-app-xrp": "^6.27.2",
+    "@ledgerhq/hw-transport-webhid": "^6.27.2",
+    "@ledgerhq/logs": "^6.10.0",
+    "core-js": "^3.25.0"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "parcel": "^2.7.0",
+    "process": "^0.11.10"
+  },
+  "alias": {
+    "@ledgerhq/devices": "@ledgerhq/devices/lib-es"
+  }
+}
